@@ -1,0 +1,7 @@
+id = "vscode-modern-themes"
+name = "VSCode Modern Themes"
+version = "0.0.1"
+schema_version = 1
+authors = ["2zqa <25235249+2zqa@users.noreply.github.com>"]
+description = "VSCode Modern themes for Zed"
+repository = "https://github.com/2zqa/vscode_modern_themes.zed"
