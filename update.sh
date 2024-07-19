@@ -17,6 +17,16 @@ for path in "$@"; do
     appearance="dark"
   fi
 
-  # Update the theme name and appearance
-  jq --arg name "$(basename "$path" .json)" --arg appearance "$appearance" '.name = $name | .appearance = $appearance' "$out" > "$out.tmp" && mv "$out.tmp" "$out"
+# Update the theme name and appearance
+jq --arg name "$(basename "$path" .json)" --arg appearance "$appearance" \
+  '.name = $name | .appearance = $appearance' "$out" > "$out.tmp" && mv "$out.tmp" "$out"
 done
+
+# Combine the contents of all -zed.json files into a single JSON array
+themes_json=$(jq -s '.' *-zed.json)
+
+# Update the vscode-modern-themes.jsonc file in the themes folder with the new themes array
+jq --argjson themes "$themes_json" '.themes = $themes' themes/vscode-modern-themes.jsonc > themes/vscode-modern-themes.tmp.jsonc && mv themes/vscode-modern-themes.tmp.jsonc themes/vscode-modern-themes.jsonc
+
+# Ensure the file in the themes folder is formatted correctly
+jq '.' themes/vscode-modern-themes.jsonc > themes/vscode-modern-themes.tmp.jsonc && mv themes/vscode-modern-themes.tmp.jsonc themes/vscode-modern-themes.jsonc
