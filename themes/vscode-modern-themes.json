@@ -30,7 +30,7 @@
         "ghost_element.selected": "#04395e",
         "ghost_element.disabled": null,
         "text": "#cccccc",
-        "text.muted": "#9d9d9d",
+        "text.muted": "#cccccc", // Or #9d9d9d
         "text.placeholder": null,
         "text.disabled": null,
         "text.accent": null,
