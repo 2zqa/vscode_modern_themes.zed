@@ -2,8 +2,7 @@
 
 # Check if at least one file is provided
 if [ "$#" -eq 0 ]; then
-  echo "Usage: $0 <file1> [file2] ..."
-  exit 1
+  set -- "modern-dark.json" "modern-light.json"
 fi
 
 for path in "$@"; do
