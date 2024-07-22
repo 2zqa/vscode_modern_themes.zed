@@ -1,4 +1,4 @@
-# Dark Theme
+# Modern Dark
 
 | JSON key | Original value | Custom value | Comment |
 | -------- | -------------- | ------------ | ------- |
@@ -8,7 +8,7 @@
 |`modified`|#0078d4|#e2c08d|From `gitDecoration.modifiedResourceForeground`|
 |`predictive`|null|#6B6B6B|Color picked using a screenshot of a suggestion containing the "■" character, since `editorGhostText.foreground` uses transparency in VS Code which isn't supported in Zed.|
 
-# Light Theme
+# Modern Light
 
 | JSON key | Original value | Custom value | Comment |
 | -------- | -------------- | ------------ | ------- |
