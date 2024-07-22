@@ -10,6 +10,8 @@ In the future I hope to get this extension on the Zed extension store, but for n
 2. Open Zed and press <kbd>Ctrl + Shift + X</kbd> to open the extension manager.
 3. Click on "Install Dev Extension" and select this repository's folder.
 
+You can now select the Modern Dark and Modern Light themes using <kbd>Ctrl + K Ctrl + T</kbd>.
+
 ## Contributing
 
 Thanks for considering contributing! If you want to make color changes:
