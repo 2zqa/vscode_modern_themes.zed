@@ -4,7 +4,7 @@
   "author": "2zqa",
   "themes": [
     {
-      "name": "Modern dark",
+      "name": "Modern Dark",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -30,7 +30,7 @@
         "ghost_element.selected": "#04395e",
         "ghost_element.disabled": null,
         "text": "#cccccc",
-        "text.muted": "#cccccc", // Or #9d9d9d
+        "text.muted": "#cccccc",
         "text.placeholder": null,
         "text.disabled": null,
         "text.accent": null,
@@ -335,10 +335,10 @@
         "elevated_surface.background": "#ffffff",
         "surface.background": "#f8f8f8",
         "background": "#ffffff",
-        "element.background": "#005fb8",
-        "element.hover": "#f2f2f2",
+        "element.background": null,
+        "element.hover": null,
         "element.active": null,
-        "element.selected": "#e8e8e8",
+        "element.selected": null,
         "element.disabled": null,
         "drop_target.background": "#d6ebff",
         "ghost_element.background": null,
@@ -347,7 +347,7 @@
         "ghost_element.selected": "#e8e8e8",
         "ghost_element.disabled": null,
         "text": "#3b3b3b",
-        "text.muted": "#3b3b3b", // Or #868686
+        "text.muted": "#3b3b3b",
         "text.placeholder": null,
         "text.disabled": null,
         "text.accent": null,
