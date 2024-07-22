@@ -4,7 +4,7 @@
   "author": "2zqa",
   "themes": [
     {
-      "name": "modern-dark",
+      "name": "Modern dark",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -321,7 +321,7 @@
       }
     },
     {
-      "name": "modern-light",
+      "name": "Modern Light",
       "appearance": "light",
       "style": {
         "background.appearance": "opaque",
