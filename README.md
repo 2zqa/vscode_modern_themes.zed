@@ -1,6 +1,6 @@
 # VS Code Modern Themes
 
-[Zed](https://zed.dev) port of the default Visual Studio Code themes, _Modern Dark_ and _Modern Light_.
+Port of the default Visual Studio Code themes, _Modern Dark_ and _Modern Light_, for [Zed](https://zed.dev).
 
 ## Installing
 
