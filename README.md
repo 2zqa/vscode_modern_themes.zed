@@ -28,5 +28,5 @@ VS Code Modern Themes is licensed under the [MIT license](LICENSE), like VS Code
 ## Acknowledgments
 
 * [kcamcam](https://github.com/kcamcam) for suggesting making my own light theme port
-* [Zed](https://zed.dev) for providing the theme_importer tool, which made this all possible
+* Zed for providing the [theme_importer](https://github.com/zed-industries/zed/tree/main/crates/theme_importer) tool, which made this all possible
 * Microsoft for VS Code and the original themes
